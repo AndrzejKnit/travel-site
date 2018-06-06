@@ -2,14 +2,29 @@
 
     @mixin clearfix;
 
+    &--t-padding {
+        padding-top: 80px;
+    }
+
     &--gutter {
         margin-right: -65px;
     }
     &--gutter-large {
+        margin-right: -145px;
+    }
+
+    &--gutter-small {
         margin-right: -100px;
     }
     &--gutters > div {
         padding-right: 65px;
+    }
+    &--gutters-small > div {
+        padding-right: 0px;
+
+        @mixin atSmall {
+            padding-right: 45px;
+          }
     }
     &--gutters-large > div {
       padding-right: 0px;
@@ -52,5 +67,16 @@
         width: 63%;
     }
 
+}
+/* Begin Equal Height Rules */
+
+&--equal-height-at-medium {
+    @mixin atMedium {
+        display: flex;
+    }
+    & > div {
+        float: none;
+        display: flex;
+    }
 }
 }
