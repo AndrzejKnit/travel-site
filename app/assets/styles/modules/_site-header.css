@@ -68,7 +68,7 @@
         height: 3px;
         background-color: #FFF;
         transition: all .3s ease-out;
-        transform-origin 0 30%;
+        transform-origin: 0 30%;
     }
 
     &::after {

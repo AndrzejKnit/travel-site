@@ -1090,6 +1090,8 @@ position: relative;  }
         height: 3px;
         background-color: #FFF;
         transition: all .3s ease-out;
+        -webkit-transform-origin: 0 30%;
+                transform-origin: 0 30%;
     }
 
 .site-header__menu-icon::after {
@@ -1231,5 +1233,14 @@ float: right
             padding: 12px 0;
             background-color: transparent
     }
-    } 
+    }
+
+.reveal-item {
+    opacity: 0;
+    transition: opacity 1.5s ease-out;
+}
+
+.reveal-item--is-visible {
+        opacity: 1;
+    }
 
