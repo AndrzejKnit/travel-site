@@ -22,8 +22,8 @@ float: right;
         padding-right: 7px;
         @mixin atMedium {
             padding-right: 20px;
-           float: left;
-           display: block;
+            float: left;
+            display: block;
         }
     }
     li:last-child {
@@ -46,6 +46,10 @@ float: right;
             font-size: 1rem;
             padding: 12px 0;
             background-color: transparent;
+
+            &.is-current-link {
+                color: #fabb69;
+            }
         }
     }
 }
