@@ -28,3 +28,7 @@ nbproject
 _notes
 dwsync.xml
 app/tmp/styles/style.css
+app/tmp/scripts/App.js
+app/tmp/scripts/Vendor.js
+app/tmp/scripts/modernizr.js
+app/tmp/styles/style.css
